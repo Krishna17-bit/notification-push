@@ -1,0 +1,11 @@
+[build]
+  # Install Python dependencies
+  command = "pip install -r requirements.txt"
+  # The folder where your site is located (leave it as '.' for Flask)
+  publish = "."
+
+[[redirects]]
+  # Redirect all traffic to your Python server (Flask app)
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200

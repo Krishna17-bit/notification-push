@@ -1,0 +1,16 @@
+{
+  "name": "Notification Chatbot",
+  "short_name": "Chatbot",
+  "description": "A chatbot for notifications and assistance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "/static/image.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
